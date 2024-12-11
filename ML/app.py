@@ -1,6 +1,7 @@
+import joblib
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import joblib
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 
@@ -19,7 +20,7 @@ except FileNotFoundError:
     print("Model not found")
 
 # Endpoint Default
-@app.route('/', methods=['POST'])
+@app.route('/')
 def home():
     return jsonify({"message": "Welcome"})
 
@@ -31,18 +32,18 @@ def predict_quality():
     gender = data.get('gender')
     age = data.get('age')
     physical_activity = data.get('physical_activity')
-    stress_level = data.get('stress_level')
-    avg_sleep_duration = data.get('sleep_duration')
-    
+    stress_level = 10 - float(data.get('stress_level'))
+    sleep_duration = float(data.get('sleep_duration')) * 30
     
     # Check if all fields are filled
-    if gender is None or age is None or physical_activity is None or stress_level is None or avg_sleep_duration is None:
+    if gender is None or age is None or physical_activity is None or stress_level is None or sleep_duration is None:
         return jsonify({"error": "All input fields are required"}), 400
 
-    input_features = [[gender, age, physical_activity, stress_level, avg_sleep_duration]]
-    input_features = np.array(input_features, dtype=np.float32)
+    input_features = [[gender, age, physical_activity, stress_level, sleep_duration]]
+    input_features = np.array(input_features, dtype='float32')
     prediction = s_quality.predict(input_features)
     prediction = float(prediction)
+    prediction = prediction / 100
     return jsonify({"prediction": prediction}), 200
 
 # Endpoint Sleep Duration
@@ -53,17 +54,17 @@ def predict_duration():
     gender = data.get('gender')
     age = data.get('age')
     physical_activity = data.get('physical_activity')
-    stress_level = data.get('stress_level')
+    stress_level = 10 - float(data.get('stress_level'))
 
-    
     # Check if all fields are filled
     if gender is None or age is None or physical_activity is None or stress_level is None:
         return jsonify({"error": "All input fields are required"}), 400
     
     input_features = [[gender, age, physical_activity, stress_level]]
-    input_features = np.array(input_features, dtype=np.float32)
+    input_features = np.array(input_features, dtype='float32')
     prediction = s_duration.predict(input_features)
     prediction = float(prediction)
+    prediction = prediction / 10
     return jsonify({"prediction": prediction}), 200
 
 if __name__ == '__main__':
