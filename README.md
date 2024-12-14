@@ -45,10 +45,6 @@ Eepy is a mobile application designed to help individuals achieve better sleep q
 **Theme for Project:**  
 Health Innovation: Empowering Vulnerable Communities for Health and Well-being  
 
----
-
-## **Mobile Development Path Documentation**
-
 ### **Steps for Android Application Development**
 
 1. **UI/UX Design**
@@ -77,8 +73,6 @@ Health Innovation: Empowering Vulnerable Communities for Health and Well-being
    - Branded the application with a custom **icon** from the drawable resources.
    - Built and signed the APK for deployment.
 
----
-
 ### **Tools/Package Used**
 - **Android Studio**: For application development and debugging.
 - **Retrofit**: For API integration with the Cloud Run services.
@@ -86,15 +80,11 @@ Health Innovation: Empowering Vulnerable Communities for Health and Well-being
 - **Postman**: For API testing and validation.
 - **Figma**: For UI/UX design and wireframes.
 
----
-
 ### **Key Features**
 - **Daily Survey**: Users fill out a survey to track their sleep habits and receive predictions.
 - **Sleep Trends Visualization**: Graphs displaying historical sleep data.
 - **Tips & Tricks**: Educational content to improve sleep quality.
 - **Personalized Recommendations**: Ideal sleep duration and quality predictions from the machine learning model.
-
----
 
 
 ### Cloud Computing Path
