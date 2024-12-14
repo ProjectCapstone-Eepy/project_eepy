@@ -31,9 +31,10 @@ Project Eepy is a project that helps individuals achieve good sleep quality for 
    - Developed a **survey page** to collect user inputs such as age, gender, physical activity, stress level, and sleep history.
    - Built **API integration** using **Retrofit** to connect with the machine learning model deployed via Cloud Run.
    - Created a **sleep trends visualization** feature using **MPAndroidChart** for bar charts.
+   - Created a swipeable **Tips & Trick** feature using **Viewpager2** 
 
 3. **Navigation Implementation**
-   - Designed smooth navigation between fragments (Survey, Tips & Tricks, and Sleep Trends) using **ViewPager2**.
+   - Designed smooth navigation between survey fragments to home page.
 
 4. **Local Data Storage**
    - Used **SharedPreferences** to save and retrieve user data such as survey inputs and API predictions.
