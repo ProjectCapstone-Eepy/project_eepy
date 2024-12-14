@@ -8,4 +8,5 @@ Here, the Cloud Computing Team prepares documentation on how the cloud processes
 
 - Cloud Architecture Documentation 
 <br>
+
 ![Langkah_SS](/CC/Document/Architecture%20Cloud.png) 
