@@ -21,6 +21,80 @@ Project Eepy is a project that helps individuals achieve good sleep quality for 
 
 
 ### Mobile Development Path
+# Project Documentation - Eepy
+
+## **Project Overview**
+Eepy is a mobile application designed to help individuals achieve better sleep quality, ultimately enhancing their productivity and well-being. The application provides users with personalized recommendations, tracks sleep trends, and predicts ideal sleep durations and quality based on user inputs.
+
+---
+
+## **Team Information**
+**Team ID:** C242-PS297  
+**Team Members:**
+- **Machine Learning Path**
+  - **M120B4KY0147** – Afad Fath Musyarof Halim – Institut Teknologi Telkom Purwokerto
+  - **M771B4KX0662** – Armina Zebua – Universitas PGRI Delta Sidoarjo
+  - **M007B4KY1147** – Dimas Narendra Putra – Universitas Dian Nuswantoro
+- **Cloud Computing Path**
+  - **C120B4KY4254** – Syahrul Zaki Khuzaini – Institut Teknologi Telkom Purwokerto
+  - **C120B4KY1455** – Fauzan Wahyu Mubarak – Institut Teknologi Telkom Purwokerto
+- **Mobile Development Path**
+  - **A120B4KY0720** – Aufa Muhammad Isyfa’Lana – Institut Teknologi Telkom Purwokerto
+  - **A120B4KY1318** – Fadhila Agil Permana – Institut Teknologi Telkom Purwokerto
+
+**Theme for Project:**  
+Health Innovation: Empowering Vulnerable Communities for Health and Well-being  
+
+---
+
+## **Mobile Development Path Documentation**
+
+### **Steps for Android Application Development**
+
+1. **UI/UX Design**
+   - Designed the application's wireframe using **Figma**.
+   - Implemented the design in XML layouts for Android.
+
+2. **Core Features Development**
+   - Developed a **survey page** to collect user inputs such as age, gender, physical activity, stress level, and sleep history.
+   - Built **API integration** using **Retrofit** to connect with the machine learning model deployed via Cloud Run.
+   - Created a **sleep trends visualization** feature using **MPAndroidChart** for bar charts.
+
+3. **Navigation Implementation**
+   - Designed smooth navigation between fragments (Survey, Tips & Tricks, and Sleep Trends) using **ViewPager2**.
+
+4. **Local Data Storage**
+   - Used **SharedPreferences** to save and retrieve user data such as survey inputs and API predictions.
+
+5. **Tips & Tricks**
+   - Integrated a **Tips & Tricks** feature with a swipeable interface to educate users on improving sleep quality.
+
+6. **Testing and Debugging**
+   - Conducted rigorous testing using real user data.
+   - Tested API responses and handled edge cases effectively.
+
+7. **Application Build**
+   - Branded the application with a custom **icon** from the drawable resources.
+   - Built and signed the APK for deployment.
+
+---
+
+### **Tools/Package Used**
+- **Android Studio**: For application development and debugging.
+- **Retrofit**: For API integration with the Cloud Run services.
+- **MPAndroidChart**: For rendering sleep trends as bar charts.
+- **Postman**: For API testing and validation.
+- **Figma**: For UI/UX design and wireframes.
+
+---
+
+### **Key Features**
+- **Daily Survey**: Users fill out a survey to track their sleep habits and receive predictions.
+- **Sleep Trends Visualization**: Graphs displaying historical sleep data.
+- **Tips & Tricks**: Educational content to improve sleep quality.
+- **Personalized Recommendations**: Ideal sleep duration and quality predictions from the machine learning model.
+
+---
 
 
 ### Cloud Computing Path
