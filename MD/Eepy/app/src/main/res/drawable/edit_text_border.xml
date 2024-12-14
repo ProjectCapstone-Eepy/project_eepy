@@ -1,0 +1,19 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Warna latar belakang -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Warna garis tepi dinamis -->
+    <stroke
+        android:width="2dp"
+        android:color="?attr/colorOnBackground" />
+
+    <!-- Sudut melengkung -->
+    <corners android:radius="8dp" />
+
+    <!-- Padding dalam -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+</shape>

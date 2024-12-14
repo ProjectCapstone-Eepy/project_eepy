@@ -1,0 +1,14 @@
+<resources>
+    <!-- Warna Utama -->
+    <color name="blue">#14587C</color>
+    <color name="dark_blue">#232D58</color>
+    <color name="light_blue">#BBDEFB</color>
+
+    <!-- Warna Latar Belakang -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#121212</color>
+
+    <!-- Warna Card -->
+    <color name="light_card">#F0F3FB</color>
+    <color name="dark_card">#232D58</color>
+</resources>
