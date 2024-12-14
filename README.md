@@ -21,31 +21,7 @@ Project Eepy is a project that helps individuals achieve good sleep quality for 
 
 
 ### Mobile Development Path
-# Project Documentation - Eepy
-
-## **Project Overview**
-Eepy is a mobile application designed to help individuals achieve better sleep quality, ultimately enhancing their productivity and well-being. The application provides users with personalized recommendations, tracks sleep trends, and predicts ideal sleep durations and quality based on user inputs.
-
----
-
-## **Team Information**
-**Team ID:** C242-PS297  
-**Team Members:**
-- **Machine Learning Path**
-  - **M120B4KY0147** – Afad Fath Musyarof Halim – Institut Teknologi Telkom Purwokerto
-  - **M771B4KX0662** – Armina Zebua – Universitas PGRI Delta Sidoarjo
-  - **M007B4KY1147** – Dimas Narendra Putra – Universitas Dian Nuswantoro
-- **Cloud Computing Path**
-  - **C120B4KY4254** – Syahrul Zaki Khuzaini – Institut Teknologi Telkom Purwokerto
-  - **C120B4KY1455** – Fauzan Wahyu Mubarak – Institut Teknologi Telkom Purwokerto
-- **Mobile Development Path**
-  - **A120B4KY0720** – Aufa Muhammad Isyfa’Lana – Institut Teknologi Telkom Purwokerto
-  - **A120B4KY1318** – Fadhila Agil Permana – Institut Teknologi Telkom Purwokerto
-
-**Theme for Project:**  
-Health Innovation: Empowering Vulnerable Communities for Health and Well-being  
-
-### **Steps for Android Application Development**
+#### **Steps for Android Application Development**
 
 1. **UI/UX Design**
    - Designed the application's wireframe using **Figma**.
