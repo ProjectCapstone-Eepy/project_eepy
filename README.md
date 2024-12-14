@@ -61,7 +61,7 @@ Project Eepy is a project that helps individuals achieve good sleep quality for 
 - **Daily Survey**: Users fill out a survey to track their sleep habits and receive predictions.
 - **Sleep Trends Visualization**: Graphs displaying historical sleep data.
 - **Tips & Tricks**: Educational content to improve sleep quality.
-- **Personalized Recommendations**: Ideal sleep duration and quality predictions from the machine learning model.
+- **Sleep Analysis**: Ideal sleep duration and quality predictions from the machine learning model.
 
 
 ### Cloud Computing Path
