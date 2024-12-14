@@ -25,15 +25,15 @@ Project Eepy is a project that helps individuals achieve good sleep quality for 
 
 ### Cloud Computing Path
 
-#### Langkah - langkah Deployment Cloud Run
-1. Clone repository github dari Machine Learning path
-2. Buka Google Cloud Platform. 
-3. Buatlah project baru dengan nama sesuai dengan project anda
-4. Buka Service Cloud Run. 
-5. Atur pengaturan sesuai yang anda inginkan Team Cloud Computing saya memakai jenis clone repository github
-6. Tunggu proses pendeployment sampai selesai.
-7. Jika sudah selesai coba API menggunakan Postman sesuai input yang diperlukan.
-8. Dan lihat hasil pada Postman.
+#### Steps for Cloud Run Deployment  
+1. Clone the GitHub repository from the Machine Learning path.  
+2. Open Google Cloud Platform.  
+3. Create a new project with a name matching your project.  
+4. Open the Cloud Run service.  
+5. Configure the settings as needed. Our Cloud Computing Team uses the GitHub repository clone method.  
+6. Wait for the deployment process to complete.  
+7. Once completed, test the API using Postman with the required input.  
+8. Check the results on Postman.  
 
 ### Cloud Architecture
 ![Langkah_SS](/CC/Document/Architecture%20Cloud.png)
