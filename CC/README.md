@@ -6,5 +6,6 @@ Here, the Cloud Computing Team creates API endpoints to be delivered to the Mobi
 ### 2. Cloud Computing Documentation
 Here, the Cloud Computing Team prepares documentation on how the cloud processes work in the application we are developing and creates documentation on the service costs we use to estimate monthly expenses for development purposes. <br>
 
-- Cloud Architecture Documentation
+- Cloud Architecture Documentation 
+<br>
 ![Langkah_SS](/CC/Document/Architecture%20Cloud.png) 
