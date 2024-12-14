@@ -79,7 +79,7 @@ Project Eepy is a project that helps individuals achieve good sleep quality for 
 ### Cloud Architecture
 ![Langkah_SS](/CC/Document/Architecture%20Cloud.png)
 
-### Tools yang dipakai
+### Tools Used
 - [Google Cloud Platform](https://cloud.google.com/)
 - [Postman](https://www.postman.com/)
 - [Google Pricing Calculator](https://cloud.google.com/products/calculator)
