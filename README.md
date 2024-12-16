@@ -18,7 +18,31 @@ Project Eepy is a project that helps individuals achieve good sleep quality for 
 #### Theme for Project : Health Innovation: Empowering Vulnerable Communities for Health and Well-being
 
 ### Machine Learning Path
+#### Steps for Model building
 
+1. **Prepare Dataset**
+   - Find and get the dataset
+   - Clean and preprocess the dataset
+   - Choose what data used for machine learning
+
+2. **Create Model**
+   - Build the model using **tensorflow**
+   - Train the model
+   - Get the accuracy and loss
+   - Repeat until getting the accuracy and lost desired
+   - Tuning the model to get most optimal result
+   - Save the trained model as `.keras`
+
+3. **Build the App**
+   - Use **Flask** for model serving
+   - Use **Tensorflow** for loading model
+   - Create the routing for each trained model
+   - Run and test app in **postman**
+
+#### Tools Used
+1. `google colab`: For processing dataset and building model
+2. `postman`: For testing app
+3. `visual studio code`: For building the app
 
 ### Mobile Development Path
 #### **Steps for Android Application Development**
